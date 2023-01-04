@@ -1,0 +1,8 @@
+1. Make it so that when a user gives us their username and password, it logs a session so we do not need to log in and out each time. 
+This is to prevent us from maxing out on the number of requests we can make
+    - Use this link to do that: https://adw0rd.github.io/instagrapi/usage-guide/interactions.html
+
+
+2. Make is so user can upload to feed. We are getting error on instagramUpload.py where user cannot automate the upload to feed (FIXED SOMEWHAT)
+3. Automate it so that it reads files from videos and just takes that link in instagramUpload.py
+4. Make it so videos that are longer than 1 minute do not get downloaded and uploaded
