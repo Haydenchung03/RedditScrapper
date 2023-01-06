@@ -28,16 +28,15 @@ def main():
         if(numberOfVideosSaved >= 1):
             break
         if (submission.link_flair_text == "Highlight" or submission.link_flair_text == "Highlights"):
-            # If it does, add it to the list of highlights
+
             print("Found a highlight: + submission.title")
             highlights.append(submission)
             numberOfVideosSaved += 1
         
 
-    # Open a file to save the highlights
+
     with open("highlights.txt", "w") as file:
         for highlight in highlights:
-            # Save each highlight's title and URL to the file
             file.write(f"{highlight.title}\n{highlight.url}\n\n")
 
 
